@@ -1,0 +1,41 @@
+# Node
+node_modules/
+build/
+dist/
+coverage/
+*.log
+
+# Environment
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+*.egg-info/
+*.egg
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Gemini/Agent
+.agents/
+.run-logs/
+.gemini/
